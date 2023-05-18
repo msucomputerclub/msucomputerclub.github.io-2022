@@ -11,6 +11,6 @@ git add .
 git commit -m "$message"
 
 # Push changes to the remote repository
-git push origin master
+git push
 
 echo "Changes pushed to remote repository."
