@@ -6,14 +6,23 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta
+      name="description"
+      content="The official Montclair State University Computing Club's Website. Find out about our club and meetings here!"
+    />
+    <meta name="author" content="Edward Wynman" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
       rel="stylesheet"
     />
 
     <title>MSU Computing Club</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/Imgs/Logo.png"
+      type="image/x-icon"
+    />
+
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -29,6 +38,7 @@
     <link rel="stylesheet" href="assets/css/templatemo-grad-school.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/table.css" />
   </head>
 
   <body>
@@ -42,7 +52,7 @@
         <ul class="main-menu">
           <li><a href="#section1">Home</a></li>
           <li><a href="#section2">About Us</a></li>
-          <!-- <li><a href="#section3">Meetings</a></li> -->
+          <li><a href="#section3">Meetings</a></li>
           <li><a href="#section4">Eboard</a></li>
           <li><a href="#section6">Socials</a></li>
           <li>
@@ -83,15 +93,14 @@
             <div class="features-post">
               <div class="features-content">
                 <div class="content-show">
-                  <h4><i class="fa fa-pencil"></i>Our E-Board</h4>
+                  <h4><i class="fa fa-pencil"></i> Our E-Board</h4>
                 </div>
                 <div class="content-hide">
-                  <p style="font-size: 20px">
-                    EDWARD WYNMAN - PRESIDENT<br />
-                    MICHAEL ABBONDANDOLO - VICE PRESIDENT<br />
-                    ANDREA GIRALDO-PUERTA - SECETARY<br />
+                  <p style="font-size: 15px">
+                    ANDREA GIRALDO-PUERTA - PRESIDENT<br />
+                    CRISS PEREZ - VICE PRESIDENT<br />
                     CADE PROKOP - TREASURER<br />
-                    ALLISON LLANOS - PUBLIC RELATIONS
+                    LOHATT MANNA - PUBLIC RELATIONS
                   </p>
                 </div>
               </div>
@@ -101,7 +110,7 @@
             <div class="features-post second-features">
               <div class="features-content">
                 <div class="content-show">
-                  <h4><i class="fa fa-graduation-cap"></i>Meetings</h4>
+                  <h4><i class="fa fa-graduation-cap"></i> Meetings</h4>
                 </div>
                 <div class="content-hide">
                   <p style="font-size: 20px">
@@ -116,21 +125,30 @@
             <div class="features-post third-features">
               <div class="features-content">
                 <div class="content-show">
-                  <h4><i class="fa fa-book"></i>Contact</h4>
+                  <h4><i class="fa fa-book"></i> Contact</h4>
                 </div>
                 <div class="content-hide">
                   <a
                     class="social-icon"
                     href="https://github.com/msucomputerclub"
-                    ><i class="fab fa-github"></i
+                    ><i
+                      class="fab fa-github"
+                      style="height: 25px; width: 25px"
+                    ></i
                   ></a>
-                  <a class="social-icon" href="https://discord.gg/w4eemdP"
-                    ><i class="fab fa-discord"></i
+                  <a class="social-icon" href="https://discord.gg/czpPCeNpah"
+                    ><i
+                      class="fab fa-discord"
+                      style="height: 25px; width: 25px"
+                    ></i
                   ></a>
                   <a
                     class="social-icon"
                     href="https://www.instagram.com/msucomputerclub/?hl=en"
-                    ><i class="fab fa-instagram"></i
+                    ><i
+                      class="fab fa-instagram"
+                      style="height: 25px; width: 25px"
+                    ></i
                   ></a>
                 </div>
               </div>
@@ -181,11 +199,11 @@
                     <div class="col-md-6">
                       <h4>Fun Projects</h4>
                       <p style="font-size: 20px">
-                        Over the course of one semster a member can make smaller
-                        simple projects such as pong in pyhton or a simple
-                        personal website. Other times we create larger apps such
-                        as a Twitter clone using Pyhton, React natice dev for a
-                        moible app, and more!
+                        Over the course of one semester a member can make
+                        smaller simple projects such as pong in pyhton or a
+                        simple personal website. Other times we create larger
+                        apps such as a Twitter clone using Pyhton, React natice
+                        dev for a moible app, and more!
                       </p>
                     </div>
                   </div>
@@ -193,11 +211,11 @@
                 <article id="tabs-3">
                   <div class="row">
                     <div class="col-md-6">
-                      <img src="" alt="" />
+                      <img src="" alt="Pic 1" />
                     </div>
                     <div class="col-md-6">
-                      <h4 style="font-size: 20px">Big Giveaways</h4>
-                      <p>
+                      <h4>Big Giveaways</h4>
+                      <p style="font-size: 20px">
                         At the end of each semster the club has its Coding
                         Challenges where memeber can come compete for prizes
                         such as custom laptops, iPads, airpods, phones and more!
@@ -214,21 +232,181 @@
         </div>
       </div>
     </section>
+    <!-- Meeting Table -->
+    <style>
+      /* CSS */
+      .styled-paragraph {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+      }
 
-    <!-- <section class="section coming-soon" data-section="section3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-xs-12">
-          <div class="continer centerIt">
-            <div>
-              <h4>Weekly</em> Meetings</h4>
-            </div>
-          </div>
+      a {
+        color: red;
+        text-decoration: none;
+      }
+    </style>
+    <section class="section courses" data-section="section3">
+      <div class="col-md-12">
+        <div class="section-heading">
+          <h2>Fall 2023 Schedule</h2>
         </div>
+        <p class="styled-paragraph">
+          Below is a table of all of our planned Fall 2023 meetings which will
+          be held in Room 212 in CCIS at 2PM every Wednesday or online via
+          Google Meet. To join a meeting, click the 'Join Meeting' button. If
+          any downloads are required, you can click on the link in the materials
+          column to download them.
+        </p>
       </div>
-    </div>
-  </section> -->
 
+      <!-- Meeting Table Goes Here -->
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Topic</th>
+          <th>Materials</th>
+          <th>Google Meet Link</th>
+        </tr>
+        <tr>
+          <td>September 6th</td>
+          <td>Welcome Back Meeting</td>
+          <td>N/A</td>
+          <td>
+            <a href="meet.google.com/nuw-aysd-cdg" class="meet-link"
+              >Join Meeting</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>September 20th</td>
+          <td>Landing An Intership + Resume Review</td>
+          <td>Bring your Resume & Linkedin</td>
+          <td>
+            <a href="meet.google.com/ifp-wfnc-xie" class="meet-link"
+              >Join Meeting</a
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td>September 27th</td>
+          <td>Web Development Crash Course</td>
+          <td>
+            <a href="https://code.visualstudio.com/download">VS Code</a> &
+            <a href="https://git-scm.com/downloads">Git</a>
+          </td>
+          <td>
+            <a href="meet.google.com/cyd-uzkb-sgj" class="meet-link"
+              >Join Meeting</a
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td>October 4th</td>
+          <td>LeetCode Problem Solving</td>
+          <td><a href="https://leetcode.com/">LeetCode Account</a></td>
+          <td>
+            <a href="meet.google.com/qbv-yocu-omd" class="meet-link"
+              >Join Meeting</a
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td>October 18th</td>
+          <td>Interactive Python Program</td>
+          <td>Python 3.0</td>
+          <td>
+            <a href="meet.google.com/yuf-kpry-nsq" class="meet-link"
+              >Join Meeting</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>November 1st</td>
+          <td>Club App Development</td>
+          <td>
+            <a href="https://code.visualstudio.com/download">VS Code</a> &
+            <a href="https://git-scm.com/downloads">Git</a>
+          </td>
+          <td>
+            <a href="meet.google.com/kcz-uodu-ntj" class="meet-link"
+              >Join Meeting</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>October 18th</td>
+          <td>Club App Development</td>
+          <td>
+            <a href="https://code.visualstudio.com/download">VS Code</a> &
+            <a href="https://git-scm.com/downloads">Git</a>
+          </td>
+          <td>
+            <a href="meet.google.com/aue-cxps-kjk" class="meet-link"
+              >Join Meeting</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>December 6th</td>
+          <td>Closing Giveaway</td>
+          <td>N/A</td>
+          <td>
+            <a href="meet.google.com/bxp-pcjs-xvb" class="meet-link"
+              >Join Meeting</a
+            >
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- CSS Media Queries for Table -->
+    <style>
+      /* Base styles for the table */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: none;
+        padding: 8px;
+      }
+
+      /* Styles for larger screens */
+      @media (min-width: 768px) {
+        th,
+        td {
+          font-size: 16px;
+        }
+      }
+
+      /* Styles for smaller screens (mobile devices) */
+      @media (max-width: 767px) {
+        th,
+        td {
+          font-size: 14px;
+          text-align: left;
+        }
+
+        table {
+          border: none;
+        }
+
+        table tr {
+          border-bottom: none;
+        }
+
+        table tr:last-child {
+          border-bottom: none;
+        }
+      }
+    </style>
+    <!-- E-Board Intros -->
     <section class="section courses" data-section="section4">
       <div class="container-fluid">
         <div class="row">
@@ -242,13 +420,12 @@
             <div class="item">
               <!-- <img src="" alt="Course #1"> -->
               <div class="down-content">
-                <h4>President - Edward Wynman</h4>
+                <h4>President - Andrea Giraldo-Puerta</h4>
                 <p>
-                  Edward is a Senior studying Computer Science and Data Science.
-                  He has been with the club for 3 years now with experience in
-                  many roles. Throught his college career he has landed many
-                  sucessful roles and completed many projects sharing his
-                  knowlage and skills with the Club Members.
+                  Andrea is a duel Biology and Computer Science Major who's
+                  helped the club stay orgianzed. With her smart ideas and
+                  amazing organizational skills she's allowed the club to host
+                  larger events.
                 </p>
               </div>
             </div>
@@ -256,13 +433,12 @@
             <div class="item">
               <!-- <img src="" alt="Course #2"> -->
               <div class="down-content">
-                <h4>Vice President - Michael Abbondandolo</h4>
+                <h4>Vice President - Criss Perez</h4>
                 <p>
-                  Michael is a Computer Scince major and math minor Senior at
-                  MSU. With plans to get his masters and his advanced knowlage
-                  in backend development he has allowed the club to complete and
-                  teach projects and important skills to memebers that can be
-                  applied to their future jobs.
+                  Criss is an upcoming junior computer science student, who
+                  started my tech journey learning web development. Now I
+                  continue to explore the possibilities within computer science
+                  and the world of technology.
                 </p>
               </div>
             </div>
@@ -272,23 +448,10 @@
               <div class="down-content">
                 <h4>Treasurer - Cade Prokop</h4>
                 <p>
-                  Case is a freshman business major converted to computer
+                  Cade is a freshman business major converted to computer
                   science. With his help and skills taking care of the budget
                   the club has been able to giveaway more items to club members
                   and get more custom merch for the club as well
-                </p>
-              </div>
-            </div>
-            <!-- Secetary -->
-            <div class="item">
-              <!-- <img src="" alt="Course #4"> -->
-              <div class="down-content">
-                <h4>Secretary - Andrea Giraldo-Puerta</h4>
-                <p>
-                  Andrea is a duel Biology and Computer Science Major who's
-                  helped the club stay orgianzed. With her smart ideas and
-                  amazing organizational skills she's allowed the club to host
-                  larger events.
                 </p>
               </div>
             </div>
@@ -296,95 +459,15 @@
             <div class="item">
               <!-- <img src="" alt="">/ -->
               <div class="down-content">
-                <h4>Public Relations - Allison Llanos</h4>
+                <h4>Public Relations - Lohatt Manna</h4>
                 <p>
-                  Allison is a deticated IT major with a visual arts and CS
-                  minor. With her in-depth knowlage of graphic design she has
-                  been able to make eye catching instagram post, flyers, logos,
-                  and more for the club to attact intrest.
+                  Lohatt is a junior Information Technology major with a
+                  Computer Science minor and a passion for helping. With her
+                  skills the club is able to reach out to many members on social
+                  media and other platforms.
                 </p>
               </div>
             </div>
-            <!-- Other
-          <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
-            <div class="down-content">
-              <h4>Photography</h4>
-              <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-              <div class="author-image">
-                <img src="assets/images/author-01.png" alt="">
-              </div>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
-            <div class="down-content">
-              <h4>Web Development</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-              <div class="author-image">
-                <img src="assets/images/author-02.png" alt="">
-              </div>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
-            <div class="down-content">
-              <h4>Learn HTML CSS</h4>
-              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-              <div class="author-image">
-                <img src="assets/images/author-03.png" alt="">
-              </div>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
-            <div class="down-content">
-              <h4>Social Media</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-              <div class="author-image">
-                <img src="assets/images/author-04.png" alt="">
-              </div>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-05.jpg" alt="">
-            <div class="down-content">
-              <h4>Digital Arts</h4>
-              <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-              <div class="author-image">
-                <img src="assets/images/author-05.png" alt="">
-              </div>
-              <div class="text-button-free">
-                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <divx class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
-            <div class="down-content">
-              <h4>Media Streaming</h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-              <div class="author-image">
-                <img src="assets/images/author-01.png" alt="">
-              </div>
-              <div class="text-button-pay">
-                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-              </div>
-            </div>
-          </divx>
-           -->
           </div>
         </div>
       </div>
@@ -428,7 +511,7 @@
       </div>
     </footer>
 
-    <!-- Scripts -->
+    <!-- Scripts Don't touch-->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
