@@ -1,4 +1,4 @@
-#!/bin/bash
+`#!/bin/bash
 
 # Get the commit message from the user
 echo "Enter commit message:"
